@@ -1,0 +1,150 @@
+@import url('normalize.css');
+
+body{
+    width: 100%;
+    position: relative;
+    background-image: url(../img/1379504.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+}
+.nav-index{
+    background-color: #0f303f;
+    opacity: 0.9;
+}
+
+.nav-index .div-row { 
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    text-align: center;
+}
+
+.nav-index .div-row .input-search{
+    margin-bottom: 20px;
+    border: 2px solid  #fff;
+    background: #fff;
+    font-size: 16px;
+    width: 400px;
+    height: 25px;
+    border-radius: 10px;
+    color:  #000000;
+    text-align: center;
+}
+
+.input-search:hover{
+    width: 415px;
+}
+
+.input-search:focus{
+    width: 415px;
+}
+
+.btn-search{
+    background: rgb(107, 142, 35);
+    border: 1px solid  #fff;
+	color: #fff;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-search:hover{
+    background-color: teal;
+}
+
+.contenedor{
+    display: inline-flex;
+    margin: 25px;
+}
+
+.formAgregar{
+    margin-top: 25px;
+    height: auto;
+    width: 250px;
+    border: 1px solid  #0f303f;
+    border-radius: 15px;
+    background-color: #0f303f;
+    opacity: 0.9;
+}
+
+.formAgregar input{
+    margin: 25px 25px 0 25px;
+    padding: 0 auto;
+    border: 1px solid #0f303f;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contenido{
+    margin-top: 25px;
+}
+
+.contenido label{
+    margin: 0 0 0 25px;
+    padding: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.contenido .totales {
+    margin-top: 25px;
+}
+
+.contenido .totales button{
+    width: 200px;
+    margin-left: 25px ;
+    background: rgb(107, 142, 35);
+    border: 1px solid  #fff;
+	color: #fff;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.productos-agregados {
+    margin-left: 25px;
+    height: auto;
+    width: auto;
+    border: 1px solid  #0f303f;
+    border-radius: 15px;
+    display: inline-flex;
+    background-color: #0f303f ;
+    margin-top: 25px;
+}
+
+.productos-agregados button {
+    width: 75px;
+    margin-top: 30px;
+    margin-left: 20px ;
+    margin-right: 25px;
+    background: rgb(142, 35, 35);
+    border: 1px solid  #fff;
+	color: #fff;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.productos-agregados p{
+    margin-left: 25px;
+    color: #fff;
+}
+
+.alerta{
+    border-radius: 15px;
+    padding-top: 25px;
+    background-color: red;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+
+.totales p{
+    margin: 0 0 25px 25px;
+    padding: auto;
+    color: #fff;
+}

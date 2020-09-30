@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+        @media only screen and (max-width: 600px) {
+
+            .nav-index .div-row .input-search {
+                width: 300px;
+            }
+
+            .contenedor {
+                display: block;
+            }
+
+            .formAgregar {
+                width: auto;
+            }
+
+
+            .formAgregar .contenido {
+                text-align: center;
+            }
+
+            .formAgregar .contenido input {
+                width: 350px;
+                height: 25px;
+            }
+
+            .formAgregar .contenido button {
+                margin: 0;
+                width: 350px;
+            }
+
+            .productos-agregados {
+                margin-left: 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="nav-index">
+        <form class="div-row" id="div-row">
+            <input type="text" id="txt_buscar" class="input-search" placeholder="Buscar producto">
+            <button type="submit" class="btn-search" id="btn_buscar">Buscar</button>
+        </form>
+    </nav>
+    <div class="contenedor">
+        <form class="formAgregar" id="formAgregar" action="">
+            <div class="contenido">
+                <label for="">AGREGAR PRODUCTOS</label>
+                <input type="text" id="nombre" class="input-producto" maxlength="30" placeholder="Nombre">
+                <input type="text" id="precio" class="input-precio" maxlength="10" placeholder="Precio">
+                <input type="text" id="cantidad" class="input-cantidad" maxlength="10" placeholder="Cantidad">
+
+                <div class="totales">
+                    <button type="submit">Agregar</button>
+                </div>
+                <div class="totales" id="total">
+                    <!--Aquí agregamos el total-->
+                </div>
+            </div>
+        </form>
+
+        <div id="lista-productos">
+            <!--agragamos cada producto-->
+        </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
