@@ -1,2 +1,2 @@
-# listar-tareas-javascript
+# listar-productos-javascript
 Agregar productos
